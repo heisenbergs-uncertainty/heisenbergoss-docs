@@ -37,7 +37,6 @@ export default async function RootLayout({ children }) {
           banner={banner}
           navbar={navbar}
           pageMap={await getPageMap()}
-          d
           docsRepositoryBase="https://github.com/heisenbergs-uncertainty/heisenbergoss-docs"
           footer={footer}
           // ... Your additional layout options
