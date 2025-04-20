@@ -43,6 +43,11 @@ export default async function RootLayout({ children }) {
         >
           {children}
         </Layout>
+        <script
+          defer
+          src="https://static.cloudflareinsights.com/beacon.min.js"
+          data-cf-beacon='{"token": "3d6f272018b94b1686496caa41c9fd42"}'
+        ></script>
       </body>
     </html>
   );
